@@ -1,9 +1,12 @@
 import './App.css'
+import Mainpage from './pages/Mainpage'
 
 function App() {
 
   return (
-    <div>app</div>
+    <div>
+      <Mainpage />
+    </div>
   )
 }
 
