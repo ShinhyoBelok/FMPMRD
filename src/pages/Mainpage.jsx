@@ -5,8 +5,8 @@ export default function Mainpage() {
     <div className='main_page_container'>
       <nav>
         <div className="logo">
-          <img src="" alt="Logo" /> 
-          <p>name</p>
+          <img src="./src/assets/WFWP+International+Logo+7.png" alt="Logo" /> 
+          <p>Federación de mujeres para la paz mundial</p>
         </div>
         <ul className="nav-links">
           <li><a href="#">About Us</a></li>
