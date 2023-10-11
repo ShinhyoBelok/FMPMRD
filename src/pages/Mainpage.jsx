@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFacebook, BsYoutube } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import './styles/navbar.css';
+import './styles/socials.css';
 
 export default function Mainpage() {
   return (
@@ -18,13 +19,13 @@ export default function Mainpage() {
           <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
-      <div className="socials">
-        <div className="icons">
-          <BsFacebook />
-          <AiFillInstagram />
-          <BsYoutube />
+      <div className="socials flexbox">
+        <div className="icons flexbox">
+          <a className="link-icon" href="#"><BsFacebook /></a>
+          <a className="link-icon" href="#"><AiFillInstagram /></a>
+          <a className="link-icon" href="#"><BsYoutube /></a>
         </div>
-        <button>Donate</button>
+        <button className='donate-btn'>DONAR</button>
       </div>
       <section className="hero">
         <img src="src\assets\hero1.jpg" alt="Hero pic" />

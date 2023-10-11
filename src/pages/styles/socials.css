@@ -1,0 +1,43 @@
+.socials {
+  background-color: #fcdee0;
+  justify-content: end;
+  padding: 0.5rem 3rem;
+  gap: 3rem;
+}
+
+.icons {
+  gap: 1rem;
+}
+
+.link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f26979;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
+}
+
+.link-icon svg {
+  color: white;
+}
+
+.donate-btn {
+  padding: 0.1rem 1rem;
+  font-weight: 700;
+  color: #fcdee0;
+  background-color: #f26979;
+  border-radius: 0.5rem;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.donate-btn:hover {
+  transform: scale(1.1);
+}
