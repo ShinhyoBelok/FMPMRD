@@ -1,0 +1,30 @@
+.about-us {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.about-us article{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-us article img{
+  width: 100%;
+}
+
+.about-us article h2{
+  align-self: center;
+  margin-top: 1rem;
+  color: #096975;
+}
+
+.about-us article p{
+  margin-top: 1rem;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+}

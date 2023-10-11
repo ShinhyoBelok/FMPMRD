@@ -4,6 +4,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 import './styles/navbar.css';
 import './styles/socials.css';
 import './styles/hero.css';
+import './styles/about-us.css';
 
 export default function Mainpage() {
   return (
@@ -31,7 +32,7 @@ export default function Mainpage() {
       <section className="hero">
         <img src="src\assets\hero1.jpg" alt="Hero pic" />
       </section>
-      <section className="about_us">
+      <section className="about-us flexbox">
         <article>
           <img src="src\assets\boxesimg-about-us.jpg" alt="picture of smiling girl" />
           <h2>ABOUT US</h2>
