@@ -1,14 +1,15 @@
 import React from 'react'
 import { BsFacebook, BsYoutube } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
+import './styles/navbar.css';
 
 export default function Mainpage() {
   return (
     <div className='main_page_container'>
-      <nav>
-        <div className="logo">
+      <nav className='flexbox'>
+        <div className="logo flexbox">
           <img src="./src/assets/WFWP+International+Logo+7.png" alt="Logo" /> 
-          <p>Federación de mujeres para la paz mundial</p>
+          <p>FEDERACIÓN DE MUJERES <br/> <span>PARA LA PAZ MUNDIAL</span></p>
         </div>
         <ul className="nav-links">
           <li><a href="#">About Us</a></li>
