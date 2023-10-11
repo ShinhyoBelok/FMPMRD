@@ -18,3 +18,14 @@ nav {
 .logo img {
   width: 6rem;
 }
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  padding: 0 1rem;
+}

@@ -11,10 +11,11 @@ export default function Mainpage() {
           <img src="./src/assets/WFWP+International+Logo+7.png" alt="Logo" /> 
           <p>FEDERACIÓN DE MUJERES <br/> <span>PARA LA PAZ MUNDIAL</span></p>
         </div>
-        <ul className="nav-links">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <ul className="nav-links flexbox">
+          <li><a href="#">QUIÉNES SOMOS</a></li>
+          <li><a href="#">PROYECTOS</a></li>
+          <li><a href="#">UBICACIÓN</a></li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
       <div className="socials">
