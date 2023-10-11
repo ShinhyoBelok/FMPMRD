@@ -3,6 +3,7 @@ import { BsFacebook, BsYoutube } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import './styles/navbar.css';
 import './styles/socials.css';
+import './styles/hero.css';
 
 export default function Mainpage() {
   return (
