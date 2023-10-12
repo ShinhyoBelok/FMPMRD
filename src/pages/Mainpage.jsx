@@ -100,8 +100,8 @@ export default function Mainpage() {
       </section>
       <section className="take-action-donation flexbox">
         <img src="src\assets\takeaction.jpg" alt="kid" />
-        <div className="action">
-          <h3>TOMAR ACCIÓN</h3>
+        <div className="action flexbox">
+          <h2>TOMAR ACCIÓN</h2>
           <p>
             Learn more about how you can donate or help raise 
             money for children, students and education programs 
