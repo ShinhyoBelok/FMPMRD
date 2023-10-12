@@ -5,6 +5,9 @@ import './styles/navbar.css';
 import './styles/socials.css';
 import './styles/hero.css';
 import './styles/about-us.css';
+import './styles/stories.css';
+import './styles/areas-of-focus.css';
+import './styles/take-action.css';
 
 export default function Mainpage() {
   return (
@@ -54,11 +57,11 @@ export default function Mainpage() {
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
       </section>
-      <section className="stories">
+      <section className="stories flexbox">
         <div className="story_pic">
           <img src="src\assets\storie1.jpg" alt="storie pic" />
         </div>
-        <div className="story_desc">
+        <div className="story-desc flexbox">
           <h2>SUCCESS STORIES:</h2>
           <p>
             The Girl Child Empowerment Project in WFWP Burkina Faso 
@@ -67,36 +70,35 @@ export default function Mainpage() {
             in six different cities and schools. Each workshop was 
             attended by 50 to 250 children.
           </p>
-          <button>READ MORE</button>
+          <button className='read-more-btn'>DETALLES</button>
         </div>
       </section>
-      <section className="areas_of_focus">
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
-        </div>
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
-        </div>
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
-        </div>
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
-        </div>
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
-        </div>
-        <div className="focus">
-          <img src="src\assets\areaoffocus1.png" alt="world" />
-          <h4>PROYECTOS HUMANITARIOS</h4>
+      <section className="areas-of-focus flexbox">
+        <h2>ÁREAS DE ENFOQUE</h2>
+        <div className="areas flexbox">
+          <div className="focus">
+            <img src="src\assets\areaoffocus1.png" alt="world" />
+            <h4>PROYECTOS HUMANITARIOS</h4>
+          </div>
+          <div className="focus">
+            <img src="src\assets\areaoffocus1.png" alt="world" />
+            <h4>PROYECTOS HUMANITARIOS</h4>
+          </div>
+          <div className="focus">
+            <img src="src\assets\areaoffocus1.png" alt="world" />
+            <h4>PROYECTOS HUMANITARIOS</h4>
+          </div>
+          <div className="focus">
+            <img src="src\assets\areaoffocus1.png" alt="world" />
+            <h4>PROYECTOS HUMANITARIOS</h4>
+          </div>
+          <div className="focus">
+            <img src="src\assets\areaoffocus1.png" alt="world" />
+            <h4>PROYECTOS HUMANITARIOS</h4>
+          </div>
         </div>
       </section>
-      <section className="take_action_donation">
+      <section className="take-action-donation flexbox">
         <img src="src\assets\takeaction.jpg" alt="kid" />
         <div className="action">
           <h3>TOMAR ACCIÓN</h3>
