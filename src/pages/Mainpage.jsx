@@ -8,6 +8,7 @@ import './styles/about-us.css';
 import './styles/stories.css';
 import './styles/areas-of-focus.css';
 import './styles/take-action.css';
+import './styles/footer.css';
 
 export default function Mainpage() {
   return (
@@ -110,13 +111,13 @@ export default function Mainpage() {
           <button>DONAR</button>
         </div>
       </section>
-      <footer>
-        <div className="icons">
-          <BsFacebook />
-          <AiFillInstagram />
-          <BsYoutube />
+      <footer className='flexbox'>
+        <div className="icons flexbox">
+          <a className="link-icon" href="#"><BsFacebook /></a>
+          <a className="link-icon" href="#"><AiFillInstagram /></a>
+          <a className="link-icon" href="#"><BsYoutube /></a>
         </div>
-        <p>COPYRIGHT &copy; WOMEN'S FEDERATION FOR WORLD PEACE, INTERNATIONAL - ALL RIGHTS RESERVED  |  4 W 43RD STREET, NEW WORK, NY 10036, USA</p>
+        <p>COPYRIGHT &copy; FEDERACIÓN DE MUJERES PARA LA PAZ MUNDIAL, TODOS LOS DERECHOS RESERVADOS  |  REP. DOM. SANTO DOMINGO, GAZCUE, C. FELIX MARIANO LLUVERES, # 14</p>
       </footer>
     </div>
   )
