@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsFacebook, BsYoutube } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
+import { MdKeyboardDoubleArrowLeft, MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import './styles/navbar.css';
 import './styles/socials.css';
 import './styles/hero.css';
@@ -16,7 +17,7 @@ export default function Mainpage() {
       <nav className='flexbox'>
         <div className="logo flexbox">
           <img src="./src/assets/WFWP+International+Logo+7.png" alt="Logo" /> 
-          <p>FEDERACIÓN DE MUJERES <br/> <span>PARA LA PAZ MUNDIAL</span></p>
+          <p>FEDERACIÓN DE MUJERES PARA LA PAZ MUNDIAL <br/><span> REPÚBLICA DOMINICANA</span></p>
         </div>
         <ul className="nav-links flexbox">
           <li><a href="#">QUIÉNES SOMOS</a></li>
@@ -33,8 +34,17 @@ export default function Mainpage() {
         </div>
         <button className='donate-btn'>DONAR</button>
       </div>
-      <section className="hero">
-        <img src="src\assets\hero1.jpg" alt="Hero pic" />
+      <section className="hero flexbox">
+        <img id='bp1' className='backpic' src="src\assets\backpic1.png" alt="backpic" />
+        <MdKeyboardDoubleArrowLeft className='arrows' />
+        <div className="content-hero flexbox">
+          <div className="pic-description flexbox">
+            <h2>12o Red Global de Mujeres Lideres para la Paz</h2>
+          </div>
+          <img src="src\assets\pic1.jpg" alt="Hero pic" />
+        </div>
+        <MdKeyboardDoubleArrowRight className='arrows' />
+        <img id='bp2' className='backpic' src="src\assets\backpic1rev.png" alt="backpic" />
       </section>
       <section className="about-us flexbox">
         <article>

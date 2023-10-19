@@ -1,3 +1,44 @@
-.hero img {
-  width: 100%;
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffacb2;
+}
+
+.arrows {
+  font-size: 18rem;
+  color: #7ea277;
+}
+
+.backpic {
+  width: 15rem;
+}
+
+.pic-description {
+  width: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.pic-description h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.content-hero {
+  margin: 1rem 1rem;
+  padding: 2rem 2rem;
+  background-color: rgba(255, 255, 255, 0.205);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.content-hero img {
+  width: 80%;
+}
+
+#bp1 {
+  align-self: flex-start;
+}
+
+#bp2 {
+  align-self: flex-end;
 }
