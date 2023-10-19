@@ -47,24 +47,20 @@ export default function Mainpage() {
         <img id='bp2' className='backpic' src="src\assets\backpic1rev.png" alt="backpic" />
       </section>
       <section className="about-us flexbox">
-        <article>
-          <img src="src\assets\boxesimg-about-us.jpg" alt="picture of smiling girl" />
+        <article className='left-side'>
           <h2>ABOUT US</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
-        <article>
-          <img src="src\assets\boxesimg-about-us.jpg" alt="picture of smiling girl" />
-          <h2>WHAT WE DO</h2>
+        <article className='right-side'>
+          <h2>ABOUT US</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
-        <article>
-          <img src="src\assets\boxesimg-about-us.jpg" alt="picture of smiling girl" />
-          <h2>UPCOMING EVENTS</h2>
+        <article className='left-side'>
+          <h2>ABOUT US</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
-        <article>
-          <img src="src\assets\boxesimg-about-us.jpg" alt="picture of smiling girl" />
-          <h2>UNITED NATIONS OFFICES</h2>
+        <article className='right-side'>
+          <h2>ABOUT US</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
       </section>
