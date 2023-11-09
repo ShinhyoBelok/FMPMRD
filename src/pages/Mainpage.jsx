@@ -63,6 +63,22 @@ export default function Mainpage() {
           <h2>ABOUT US</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
+        <article className='left-side'>
+          <h2>QUIENES SOMOS</h2>
+          <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
+        </article>
+        <article className='right-side'>
+          <h2>ABOUT US</h2>
+          <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
+        </article>
+        <article className='left-side'>
+          <h2>ABOUT US</h2>
+          <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
+        </article>
+        <article className='right-side'>
+          <h2>ABOUT US</h2>
+          <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
+        </article>
       </section>
       <section className="stories flexbox">
         <div className="story_pic">
