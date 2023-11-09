@@ -48,7 +48,7 @@ export default function Mainpage() {
       </section>
       <section className="about-us flexbox">
         <article className='left-side'>
-          <h2>ABOUT US</h2>
+          <h2>QUIENES SOMOS</h2>
           <p>Women working together to realize one global family rooted in a culture of sustainable peace.</p>
         </article>
         <article className='right-side'>
